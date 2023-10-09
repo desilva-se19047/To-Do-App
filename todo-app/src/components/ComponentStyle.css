@@ -2,24 +2,18 @@
 /* Style for the header navigation component */
 
 .header {
-    background-color: #333;
+    background-color: #a02121;
     color: #fff;
     display: flex;
     justify-content: space-between;
     margin-left: 272px;
     text-align: left;
-    height: 80px;
-    width: 1075px;
+    height: 79px;
+    width: 1168px;
+    border-width: 1168px;
+    border-bottom: 1px solid green;
   }
 
-  .divider {
-    position: absolute;
-    bottom: 1px;
-    left: 0;
-    width: 1075px; 
-    height: 100px; 
-    background-color: #1ead49; 
-  }
   
   .header h4 {
     margin: 0;
@@ -45,4 +39,39 @@
     height: 24px;
   }
 
+  /* Style for the side navigation component */
+
+.side-nav {
+    width: 272px; 
+    height: 900px;
+    background-color: #333;
+    color: #fff;
+    margin-top: -80px;
+  }
+  
+  .dashboard-image {
+    width: 100%; 
+    max-height: 150px; 
+    display: block; 
+    margin-bottom: 20px; 
+  }
+  
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .side-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .side-nav h3 {
+    margin: 0;
+  }
   
