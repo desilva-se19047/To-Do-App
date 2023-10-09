@@ -86,8 +86,8 @@
 
 .frame {
     background-color: #f2f2f2;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 5px;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -133,6 +133,7 @@
     width: 167px;
     height: 120px;
     margin-left: -26px;
+    margin-bottom: -5px;
   }
   
   .frame-image-2 {

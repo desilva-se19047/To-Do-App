@@ -17,7 +17,7 @@ const Frame = () => {
           <a href="#">Look here for more information</a>
         </div>
       </div>
-      <div className="frame-image">
+      <div>
         <img src={vector} alt="Vector" className="frame-image-1" />
         <img src={close} alt="Close" className="frame-image-2" />
       </div>
