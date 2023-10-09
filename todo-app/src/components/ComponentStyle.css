@@ -48,21 +48,21 @@
     color: #fff;
     margin-top: -80px;
   }
-  
-  .dashboard-image {
-    width: 100%; 
-    max-height: 150px; 
-    display: block; 
-    margin-bottom: 20px; 
+
+  .dashboard-button {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
   }
   
-  .side-nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .side-nav li {
-    margin-bottom: 10px;
+  .dashboard-image-1 {
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px;
   }
   
   .side-nav a {
@@ -73,5 +73,12 @@
 
   .side-nav h3 {
     margin: 0;
+    padding-top: 24px;
+    padding-left: 49px;
+  }
+
+  .rectangle-430 {
+    height: 80px;
+    width: 272px;
   }
   
