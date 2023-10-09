@@ -4,7 +4,7 @@ import notification from "../assets/Notifications.svg";
 import profile from "../assets/Profile.svg";
 import chevron from "../assets/Chevron-down.svg";
 
-const Header = () => {
+const HeaderNav = () => {
   return (
     <header className="header">
         <div>
@@ -19,4 +19,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderNav;

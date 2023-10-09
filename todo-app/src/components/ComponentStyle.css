@@ -81,4 +81,69 @@
     height: 80px;
     width: 272px;
   }
+
+  /* Style for the frame component */
+
+.frame {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1120px;
+    height: 120px;
+    margin-left: 296px;
+    margin-top: -796px;
+    
+  }
   
+  .frame-content{
+    height: 120px;
+  }
+
+  .frame h3 {
+    font-size: 24px;
+    width: 600px;
+    margin-left: 16px;
+    margin-top: 18px;
+    margin-bottom: 0;
+  }
+  
+  .frame p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 24px;
+    margin-left: 16px;
+  }
+  
+  .frame a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 16px;
+  }
+  
+  .frame-text {
+    margin-top: 12px;
+  }
+
+  .frame-image-1 {
+    width: 167px;
+    height: 120px;
+    margin-left: -26px;
+  }
+  
+  .frame-image-2 {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    margin-bottom: 80px;
+    margin-right: 16px;
+  }
+  
+
+ /* Style for the activity feeds component */
+ /* Style for the priority chart component */
+ /* Style for the task list component */ 
