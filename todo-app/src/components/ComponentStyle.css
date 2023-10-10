@@ -144,7 +144,93 @@
     margin-right: 16px;
   }
   
+ /* Style for the task list component */
 
+  .Container{
+    float:right;
+    width: 656px;
+    height: 632px;
+    background-color: rgb(73, 80, 60);
+    margin-right: 540.22px;
+    margin-top: 24px; 
+}
+
+.card-header{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+ul.list-group-flush {
+    padding-left: 0;
+}
+.card-modification{
+  
+    color: blanchedalmond;
+    width: 656px
+
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+  .list-group-item .top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .bell {
+    margin-right: 10px;
+    margin-left: 16px;
+  }
+  
+  .todo {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 12px;
+    width: 60%;
+  }
+  
+  .complete,
+  .inprogress,
+  .date {
+    margin-left: 10px;
+    font-size: 12px;
+    
+  }
+  .complete{
+    color: green;
+    background-color: rgb(199, 214, 225);
+    border-radius: 5px;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+  .inprogress{
+    color: yellow;
+    background-color: rgb(199, 214, 225);
+    border-radius: 5px;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+  
+  .markasdone {
+   
+    font-size: 12px;
+    color: red;
+  }
+  .pagination{
+    color: black;
+    height: 40px;
+    margin-top: 0;
+    text-align: center;
+  }
+ 
  /* Style for the activity feeds component */
  /* Style for the priority chart component */
- /* Style for the task list component */ 
+  
