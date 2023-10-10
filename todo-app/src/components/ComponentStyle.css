@@ -48,7 +48,7 @@
 .side-nav {
     width: 272px; 
     height: 900px;
-    background-color: #333;
+    background-color:rgba(51, 7, 79, 1);
     color: #fff;
     margin-top: -80px;
   }
@@ -58,9 +58,13 @@
     color: #fff;
     display: flex;
     align-items: center;
-    background-color: #333;
+    background-color: rgba(235, 230, 237, 0.1);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 24px;
+    width: 225px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 16px;
   }
   
   .dashboard-image-1 {
@@ -84,6 +88,7 @@
   .rectangle-430 {
     height: 80px;
     width: 272px;
+    background-color: rgba(235, 230, 237, 0.1);
   }
 
   /* Style for the frame component */
