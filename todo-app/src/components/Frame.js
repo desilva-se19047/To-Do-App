@@ -12,7 +12,7 @@ const Frame = () => {
         </div>
         <div className="frame-text">
           <p>The end of the year is coming. Are you planning your performance interviews? You can do this super efficiently with Acmy.</p>
-          <a href="#">Look here for more information</a>
+          <a href="#"><u>Look here for more information</u></a>
         </div>
       </div>
       <div>
