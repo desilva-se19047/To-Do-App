@@ -287,4 +287,30 @@ margin: 0;
   
 
  /* Style for the priority chart component */
+
+ .priority-container {
+    background-color: #bdb0b0;
+    margin-top: 20px;
+    margin-left: 976px;
+    width: 440px;
+    height: 253px;
+  }
+
+  .priority-container h3{
+    width: 430px;
+    height: 57px;
+    gap: 8px;
+    size: 16px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 17px;
+    border-width: 1168px;
+    border-bottom: 1px solid green;
+  }   
   
+  .donut-chart-container {
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 70px;
+  }
