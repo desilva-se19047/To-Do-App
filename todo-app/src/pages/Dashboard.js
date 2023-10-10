@@ -5,6 +5,7 @@ import Frame from '../components/Frame.js';
 import TaskList from '../components/TaskList.js';
 import ActivityFeed from '../components/ActivityFeed.js';
 import PriorityChart from '../components/PriorityChart.js';
+import './PageStyle.css';
 
 function Dashboard() {
     return (
