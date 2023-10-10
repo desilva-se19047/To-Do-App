@@ -243,14 +243,12 @@ ul.list-group-flush {
     
   }
   .complete{
-    color: green;
     background-color: rgb(199, 214, 225);
     border-radius: 5px;
     padding-right: 4px;
     padding-left: 4px;
   }
   .inprogress{
-    color: yellow;
     background-color: rgb(199, 214, 225);
     border-radius: 5px;
     padding-right: 4px;
