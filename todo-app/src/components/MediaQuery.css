@@ -1,0 +1,72 @@
+/* Media queries for different screen sizes */
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .header {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .side-nav {
+      display: none;
+    }
+  
+  }
+  
+  /* Media query for screens smaller than 576px */
+  @media (max-width: 576px) {
+    .header {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .side-nav {
+      display: none;
+    }
+  
+  }
+  
+  /* Media query for screens smaller than 992px */
+  @media (max-width: 992px) {
+    .header {
+      margin-left: 0;
+      width: 100%;
+    }
+
+    .side-nav {
+      display: none;
+    }
+  
+  }
+  
+  /* Media query for screens smaller than 1200px */
+  @media (max-width: 1200px) {
+    .frame {
+      width: 100%;
+    }
+  
+    .Container {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+  }
+  
+  /* Media query for screens smaller than 992px */
+  @media (max-width: 992px) {
+    .activity-container {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+  }
+  
+  /* Media query for screens smaller than 576px */
+  @media (max-width: 576px) {
+    .priority-container {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+  }
+  
