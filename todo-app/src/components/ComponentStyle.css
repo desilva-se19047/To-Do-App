@@ -1,3 +1,11 @@
+/* components and related lines
+  CSS for HeaderNav.js -> 10 - 54
+  CSS for SideNav.js -> 58 - 102
+  CSS for Frame.js -> 106 - 163
+  CSS for TaskList.js -> 167 - 286
+  CSS for ActivityFeed.js -> 290 - 351
+  CSS for PriorityChart.js -> 355 - 381
+*/
 
 /* Style for the header navigation component */
 
@@ -342,7 +350,6 @@ ul.list-group-flush {
     margin-right: 5px;
 }
   
-
  /* Style for the priority chart component */
 
  .priority-container {
