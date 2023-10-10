@@ -164,9 +164,9 @@ body{
     float:left;
     width: 656px;
     height: 632px;
-    background-color: rgba(255, 255, 255, 1);
     margin-left: 296px;
-    margin-top: 24px; 
+    margin-top: 24px;
+    background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(208, 213, 221, 1);
 }
 
@@ -286,11 +286,13 @@ ul.list-group-flush {
  /* Style for the activity feeds component */
 
 .activity-container {
-    background-color: #bdb0b0;
     margin-top: 24px;
     margin-left: 976px;
     width: 440px;
     height: 363px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(208, 213, 221, 1);
+
   }
 
   .activity-container h3{
@@ -302,7 +304,7 @@ ul.list-group-flush {
     padding-top: 20px;
     margin-bottom: 17px;
     border-width: 1168px;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid rgba(208, 213, 221, 1);
   }
 
 .activity-content {
@@ -314,7 +316,7 @@ ul.list-group-flush {
   margin-left: 16px;
   margin-bottom: 10px;
   border-width: 1168px;
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid rgba(208, 213, 221, 1);
 
 }
 
@@ -329,7 +331,16 @@ ul.list-group-flush {
 }
 
 .activity-text p{
-margin: 0;
+    margin: 0;
+    color: rgba(0, 0, 0, 1);
+}
+
+.activity-text a{
+    color: rgba(188, 0, 109, 1);
+}
+
+.activity-text .time {
+    color: rgba(117, 117, 117, 1);
 }
 
 .activity-image-1, .activity-image-2{
