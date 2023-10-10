@@ -5,7 +5,6 @@ import medium from "../assets/Priority-Medium.svg";
 import high from "../assets/Priority-High.svg"; 
 
 
-
 function formatDate(dateString) {
     const options = { month: 'short', day: 'numeric' };
     const formattedDate = new Date(dateString).toLocaleDateString('en-US', options);
@@ -71,11 +70,11 @@ export default function TaskList() {
 
                                 {todo.completed ? (
                                     <div className='complete'>
-                                        <span>done</span>
+                                        <span>Done</span>
                                     </div>
                                 ):(
                                     <div className='inprogress'>
-                                        <span>in progress</span>
+                                        <span>In-Progress</span>
                                     </div>
                                 ) 
                                 }
@@ -85,7 +84,6 @@ export default function TaskList() {
                                 <span></span>
                             ):(
                                 <div className='markasdone'>
-                                    <br/>
                                     Mark as done
                                 </div>
                             ) }
@@ -132,6 +130,6 @@ export default function TaskList() {
             </div>
         </div>   
     </div>
-     
+
   )
 }

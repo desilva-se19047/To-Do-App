@@ -160,6 +160,12 @@
     text-align: left;
     font-weight: bold;
     color: black;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 646px;
+    height: 49px;
+    border-width: 1168px;
+    border-bottom: 1px solid green;
 }
 
 ul.list-group-flush {
@@ -176,13 +182,17 @@ ul.list-group-flush {
     display: flex;
     flex-direction: column; 
     align-items: flex-start; 
+    margin-bottom: 10px;
+    border-width: 1168px;
+    border-bottom: 1px solid green;
+
   }
   
   .list-group-item .top-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 99%;
   }
   
   .bell {
@@ -194,7 +204,9 @@ ul.list-group-flush {
     flex-grow: 1;
     text-align: left;
     font-size: 12px;
-    width: 60%;
+    width: 303px;
+    height: 24px;
+    display: flex;
   }
   
   .complete,
@@ -223,6 +235,9 @@ ul.list-group-flush {
    
     font-size: 12px;
     color: red;
+    margin-left: 50px;
+    width: 78px;
+    height: 22px;
   }
   .pagination{
     color: black;
