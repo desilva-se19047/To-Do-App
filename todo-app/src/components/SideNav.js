@@ -1,5 +1,6 @@
 import React from 'react';
 import './ComponentStyle.css';
+import './MediaQuery.css';
 import dashboard from "../assets/Dashboard.svg";
 
 

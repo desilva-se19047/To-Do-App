@@ -1,5 +1,6 @@
 import React from 'react';
 import './ComponentStyle.css';
+import './MediaQuery.css';
 import notification from "../assets/Notifications.svg";
 import profile from "../assets/Profile.svg";
 import chevron from "../assets/Chevron-down.svg";

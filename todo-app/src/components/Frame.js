@@ -1,5 +1,6 @@
 import React from 'react';
 import './ComponentStyle.css';
+import './MediaQuery.css';
 import close from "../assets/Close.svg";
 import vector from "../assets/Vector.svg";
 

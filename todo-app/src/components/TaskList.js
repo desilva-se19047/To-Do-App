@@ -1,4 +1,5 @@
 import './ComponentStyle.css';
+import './MediaQuery.css';
 import React, { useState, useEffect } from 'react';
 import low from "../assets/Priority-Low.svg";
 import medium from "../assets/Priority-Medium.svg";

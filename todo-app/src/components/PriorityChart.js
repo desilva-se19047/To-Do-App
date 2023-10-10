@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 import './ComponentStyle.css';
+import './MediaQuery.css';
 
 function PriorityChart() {
   const chartRef = useRef(null);

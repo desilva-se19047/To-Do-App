@@ -1,5 +1,6 @@
 import React from 'react';
 import './ComponentStyle.css';
+import './MediaQuery.css';
 import avatar1 from "../assets/Avatar-1.svg";
 import avatar2 from "../assets/Avatar-2.svg";
 
