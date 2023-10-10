@@ -232,5 +232,32 @@ ul.list-group-flush {
   }
  
  /* Style for the activity feeds component */
+
+.activity-container {
+    background-color: #f8f8f8;
+    width: 440px;
+    height: 363px;
+    margin-left: 976px;
+    margin-top: 24px;
+  }
+  
+  .activity-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .activity-text {
+    flex-grow: 1;
+  }
+  
+  .activity-time {
+    color: #666;
+  }
+  
+  
+  
+
  /* Style for the priority chart component */
   

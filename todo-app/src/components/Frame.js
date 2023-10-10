@@ -1,5 +1,3 @@
-// Frame.js
-
 import React from 'react';
 import './ComponentStyle.css';
 import close from "../assets/Close.svg";
