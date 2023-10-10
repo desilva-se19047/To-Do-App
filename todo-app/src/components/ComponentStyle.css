@@ -164,9 +164,10 @@ body{
     float:left;
     width: 656px;
     height: 632px;
-    background-color: rgb(73, 80, 60);
+    background-color: rgba(255, 255, 255, 1);
     margin-left: 296px;
     margin-top: 24px; 
+    border: 1px solid rgba(208, 213, 221, 1);
 }
 
 .card-header{
@@ -179,7 +180,7 @@ body{
     width: 646px;
     height: 49px;
     border-width: 1168px;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid rgba(208, 213, 221, 1);
 }
 
 ul.list-group-flush {
@@ -198,7 +199,7 @@ ul.list-group-flush {
     align-items: flex-start; 
     margin-bottom: 10px;
     border-width: 1168px;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid rgba(208, 213, 221, 1);
 
   }
   
@@ -221,8 +222,23 @@ ul.list-group-flush {
     width: 303px;
     height: 24px;
     display: flex;
+    color: rgba(0, 0, 0, 1);
   }
   
+  .date {
+    color: rgba(117, 117, 117, 1);
+  }
+
+  .complete{
+    color: rgba(33, 150, 83, 1);
+    background: rgba(232, 245, 233, 1);
+  }
+
+  .inprogress{
+    color: rgba(242, 201, 76, 1);
+    background: rgba(242, 201, 76, 0.1);
+  }
+
   .complete,
   .inprogress,
   .date {
@@ -258,6 +274,13 @@ ul.list-group-flush {
     height: 40px;
     margin-top: 0;
     text-align: center;
+  }
+
+  .pagination button{
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(188, 0, 109, 1);
+    margin-left: 10px;
+    margin-right: 10px;
   }
  
  /* Style for the activity feeds component */
