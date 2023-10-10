@@ -147,11 +147,11 @@
  /* Style for the task list component */
 
   .Container{
-    float:right;
+    float:left;
     width: 656px;
     height: 632px;
     background-color: rgb(73, 80, 60);
-    margin-right: 540.22px;
+    margin-left: 296px;
     margin-top: 24px; 
 }
 
@@ -234,29 +234,56 @@ ul.list-group-flush {
  /* Style for the activity feeds component */
 
 .activity-container {
-    background-color: #f8f8f8;
+    background-color: #bdb0b0;
+    margin-top: 24px;
+    margin-left: 976px;
     width: 440px;
     height: 363px;
-    margin-left: 976px;
-    margin-top: 24px;
   }
-  
-  .activity-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
+
+  .activity-container h3{
+    width: 430px;
+    height: 57px;
+    gap: 8px;
+    size: 16px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 17px;
+    border-width: 1168px;
+    border-bottom: 1px solid green;
   }
-  
-  .activity-text {
-    flex-grow: 1;
-  }
-  
-  .activity-time {
-    color: #666;
-  }
-  
-  
+
+.activity-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 408px;
+  height: 70px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  border-width: 1168px;
+  border-bottom: 1px solid green;
+
+}
+
+.activity-text {
+  flex-grow: 1;
+  width: 358px;
+  height: 70px;
+}
+
+.activity-time {
+  color: #666;
+}
+
+.activity-text p{
+margin: 0;
+}
+
+.activity-image-1, .activity-image-2{
+    margin-bottom: 35px;
+    margin-right: 5px;
+}
   
 
  /* Style for the priority chart component */
